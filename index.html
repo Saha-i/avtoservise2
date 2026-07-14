@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>АвтоСервис + — ремонт и обслуживание</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АВТОиСТОрия  — ремонт и обслуживание</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- ШАПКА САЙТА -->
+<!-- шапка -->
   <header class="header">
     <div class="container header-container">
       <div class="logo">
         <i class="fas fa-car" style="color: #e63946; margin-right: 10px;"></i>
-        <span>АвтоСервис <span style="font-weight: 300;">+</span></span>
+        <span>АВТОиСТОрия </span>
       </div>
       <nav class="nav">
         <ul class="nav-list">
           <li><a href="#services">Услуги</a></li>
+          <li><a href="#prices">Цены</a></li>
           <li><a href="#about">О нас</a></li>
           <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
       <div class="header-phone">
         <i class="fas fa-phone-alt"></i>
-        <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+        <a href="tel:+74951234567">+7 (921) 943-27-03</a>
       </div>
     </div>
   </header>
 
-  <!-- ГЛАВНЫЙ ЭКРАН -->
+<!-- главная -->
   <section class="hero">
     <div class="container hero-container">
       <div class="hero-content">
         <h1>Профессиональный ремонт <br>и обслуживание автомобилей</h1>
-        <p>Диагностика, слесарный ремонт, шиномонтаж и компьютерная диагностика — всё в одном месте. Работаем с 2008 года.</p>
+        <p>Диагностика, слесарный ремонт, шиномонтаж и компьютерная диагностика — всё в одном месте. Работаем с 2018 года.</p>
         <div class="hero-buttons">
           <a href="#contact" class="btn btn-primary">Записаться</a>
           <a href="#services" class="btn btn-outline">Наши услуги</a>
         </div>
         <div class="hero-stats">
-          <div><span>12+</span> лет опыта</div>
+          <div><span>8+</span> лет опыта</div>
           <div><span>3500+</span> довольных клиентов</div>
           <div><span>100%</span> гарантия</div>
         </div>
       </div>
       <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a2fc?w=600&auto=format&fit=crop" alt="Автосервис">
-        <div class="hero-badge">
-          <i class="fas fa-check-circle"></i> Сертифицированные мастера
+        <img src="https://img.freepik.com/free-photo/male-female-mechanics-working-shop-car_23-2150170020.jpg?semt=ais_hybrid&w=740" alt="Автосервис">
+      </div>
+    </div>
+  </section>
+
+    <!-- почему мы -->
+  <section class="features">
+    <div class="container">
+      <div class="section-title">
+        <span></span>
+        <h2>Почему мы?</h2>
+      </div> 
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-user-check"></i></div>
+          <h4>Опытные мастера</h4>
+          <p>Средний стаж наших специалистов — более 7 лет. Работаем с любыми марками авто.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-clock"></i></div>
+          <h4>Без очередей</h4>
+          <p>Работаем по предварительной записи. Ваш автомобиль примут точно в назначенное время.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+          <h4>Честные цены</h4>
+          <p>Смета утверждается до начала работ. Никаких скрытых платежей и сюрпризов.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h4>Гарантия 6 месяцев</h4>
+          <p>На все виды работ даём письменную гарантию. Уверены в качестве!</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- УСЛУГИ -->
+  <!-- услуги -->
   <section id="services" class="services">
     <div class="container">
       <div class="section-title">
@@ -67,40 +98,132 @@
       </div>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon"><i class="fas fa-microscope"></i></div>
-          <h3>Компьютерная диагностика</h3>
-          <p>Сканер чтения ошибок, проверка всех систем автомобиля.</p>
+          <div class="service-icon"><i class="fas fa-car-crash"></i></div>
+          <h3>Кузовной ремонт</h3>
+          <p>Правка и восстановление геометрии кузова любой сложности. Убираем вмятины без покраски и восстанавливаем авто после ДТП.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon"><i class="fas fa-wrench"></i></div>
-          <h3>Слесарный ремонт</h3>
-          <p>Ходовая, подвеска, тормозная система, замена масла и фильтров.</p>
+          <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
+          <h3>Малярные работы</h3>
+          <p>Полная или локальная покраска автомобиля. Подбор краски по каталогу VIN, качественная сушка в камере и идеальный цвет.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Слесарные работы</h3>
+          <p>Ремонт ходовой части, подвески и тормозной системы. Диагностика неисправностей и замена изношенных узлов.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-car"></i></div>
+          <h3> Ремонт и обслуживание двигателя</h3>
+          <p>Капитальный и текущий ремонт ДВС. Замена ГРМ, цепи, прокладок, а также компьютерная диагностика силового агрегата.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-oil-can"></i></div>
+          <h3>Замена масла</h3>
+          <p>Срочная замена моторного и трансмиссионного масла. Используем только оригинальные фильтры и масла ведущих брендов.</p>
         </div>
         <div class="service-card">
           <div class="service-icon"><i class="fas fa-circle-notch"></i></div>
           <h3>Шиномонтаж</h3>
-          <p>Балансировка, сезонная смена шин, ремонт проколов.</p>
+          <p>Балансировка, сезонная смена шин, ремонт проколов. Работаем с дисками любого диаметра, включая низкопрофильные.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon"><i class="fas fa-bolt"></i></div>
-          <h3>Электрика</h3>
-          <p>Диагностика и ремонт электрооборудования, генератора, стартера.</p>
+          <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Антикорройзная обработка кузова</h3>
+          <p>Обработка скрытых полостей и днища специальными составами. Останавливаем коррозию и продлеваем срок службы кузова.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon"><i class="fas fa-tint"></i></div>
-          <h3>Заправка кондиционеров</h3>
-          <p>Заправка и диагностика климатических систем.</p>
+          <div class="service-icon"><i class="fas fa-film"></i></div>
+          <h3>Виниловая и защитная плёнка на кузов авто</h3>
+          <p>Оклейка кузова полиуретановой плёнкой для защиты от сколов и царапин. Возможна полная или частичная оклейка.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon"><i class="fas fa-cogs"></i></div>
-          <h3>Ремонт двигателя</h3>
-          <p>Капитальный и текущий ремонт двигателей любых марок.</p>
+          <div class="service-icon"><i class="fas fa-eye"></i></div>
+          <h3>Тонировка стёкл</h3>
+          <p>Качественная тонировка с защитой от УФ-лучей. Работаем с различной плёнкой любой светопропускаемости согласно нормам.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- О НАС -->
+    <!-- прайс -->
+  <section id="prices" class="prices">
+    <div class="container">
+      <div class="section-title">
+        <span>Стоимость работ</span>
+        <h2>Наши цены</h2>
+        <p style="color: #5a5a6a; max-width: 600px; margin: 10px auto 0;">Все цены указаны за стандартную работу. Окончательная стоимость уточняется после диагностики.</p>
+      </div>
+      <div class="prices-table-wrapper">
+        <table class="prices-table">
+          <thead>
+            <tr>
+              <th>Услуга</th>
+              <th>Стоимость</th>
+              <th>Примечание</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fas fa-stethoscope"></i> Компьютерная диагностика</td>
+              <td><strong>от 1 500 ₽</strong></td>
+              <td>Сканирование всех систем авто</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-tools"></i> Слесарный ремонт ходовой</td>
+              <td><strong>от 3 000 ₽</strong></td>
+              <td>Зависит от сложности</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-oil-can"></i> Замена масла с фильтром</td>
+              <td><strong>от 2 500 ₽</strong></td>
+              <td>Без стоимости масла</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-circle-notch"></i> Шиномонтаж (4 колеса)</td>
+              <td><strong>от 3 200 ₽</strong></td>
+              <td>Балансировка входит</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-car-crash"></i> Кузовной ремонт (1 элемент)</td>
+              <td><strong>от 6 000 ₽</strong></td>
+              <td>Без учёта покраски</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-paint-roller"></i> Покраска элемента</td>
+              <td><strong>от 8 000 ₽</strong></td>
+              <td>Подбор краски по VIN</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-car"></i> Ремонт двигателя</td>
+              <td><strong>от 10 000 ₽</strong></td>
+              <td>Точная цена после диагностики</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-shield-alt"></i> Антикоррозийная обработка</td>
+              <td><strong>от 7 000 ₽</strong></td>
+              <td>Обработка днища и полостей</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-film"></i> Виниловая плёнка (капот)</td>
+              <td><strong>от 12 000 ₽</strong></td>
+              <td>Цветная или прозрачная</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-eye"></i> Тонировка стёкл (все стёкла)</td>
+              <td><strong>от 5 500 ₽</strong></td>
+              <td>Любая светопропускаемость</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="prices-note">
+        <p><i class="fas fa-info-circle" style="color: #e63946;"></i> <strong>Важно:</strong> Цены носят ознакомительный характер. Точная стоимость рассчитывается после осмотра автомобиля. <a href="#contact" style="color: #e63946; font-weight: 700;">Запишитесь на диагностику →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- о нас -->
   <section id="about" class="about">
     <div class="container about-container">
       <div class="about-image">
@@ -108,14 +231,11 @@
       </div>
       <div class="about-content">
         <div class="section-title left">
-          <span>Почему выбирают нас</span>
           <h2>Мы ценим ваше время и доверие</h2>
         </div>
         <ul class="advantages">
-          <li><i class="fas fa-check-circle"></i> Бесплатная диагностика ходовой части при любом ремонте</li>
           <li><i class="fas fa-check-circle"></i> Прозрачные цены без скрытых платежей</li>
           <li><i class="fas fa-check-circle"></i> Оригинальные запчасти и расходники</li>
-          <li><i class="fas fa-check-circle"></i> Гарантия на все виды работ до 1 года</li>
           <li><i class="fas fa-check-circle"></i> Удобная запись онлайн и по телефону</li>
         </ul>
         <a href="#contact" class="btn btn-primary">Связаться с нами</a>
@@ -123,7 +243,7 @@
     </div>
   </section>
 
-  <!-- ОТЗЫВЫ -->
+  <!-- отзывы -->
   <section id="reviews" class="reviews">
     <div class="container">
       <div class="section-title">
@@ -150,7 +270,64 @@
     </div>
   </section>
 
-  <!-- ФОРМА ЗАПИСИ -->
+    <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-title">
+        <span>Часто спрашивают</span>
+        <h2>Вопросы и ответы</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <i class="fas fa-chevron-right"></i>
+            <h4>Сколько времени занимает ремонт?</h4>
+          </div>
+          <div class="faq-answer">
+            <p>Сроки зависят от сложности работы. Мелкий ремонт (замена масла, шиномонтаж) занимает 1–2 часа. Кузовные и малярные работы могут занять от 1 до 5 дней. Точные сроки мы называем после диагностики.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <i class="fas fa-chevron-right"></i>
+            <h4>Даёте ли вы гарантию?</h4>
+          </div>
+          <div class="faq-answer">
+            <p>Да, на все виды работ мы даём гарантию до 6 месяцев. На запчасти — гарантия производителя. Все гарантийные обязательства фиксируются в договоре.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <i class="fas fa-chevron-right"></i>
+            <h4>Нужно ли записываться заранее?</h4>
+          </div>
+          <div class="faq-answer">
+            <p>Рекомендуем записываться заранее, чтобы мы гарантированно приняли ваш автомобиль в удобное время. Экстренные случаи (прокол колеса, мелкая поломка) принимаем без записи.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <i class="fas fa-chevron-right"></i>
+            <h4>Можно ли привезти свои запчасти?</h4>
+          </div>
+          <div class="faq-answer">
+            <p>Да, вы можете привезти свои запчасти. В этом случае мы даём гарантию только на работу, но не на детали. Мы также можем помочь с подбором качественных запчастей по вашим пожеланиям.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <i class="fas fa-chevron-right"></i>
+            <h4>Вы работаете с электромобилями?</h4>
+          </div>
+          <div class="faq-answer">
+            <p>На данный момент мы специализируемся на автомобилях с ДВС. По вопросам электромобилей рекомендуем обратиться в специализированные сервисы.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  форма записи -->
   <section id="contact" class="contact">
     <div class="container contact-container">
       <div class="contact-info">
@@ -158,13 +335,13 @@
           <span>Свяжитесь с нами</span>
           <h2>Запишитесь на ремонт</h2>
         </div>
-        <p><i class="fas fa-map-marker-alt"></i> Москва, ул. Автомобильная, 15</p>
-        <p><i class="fas fa-phone"></i> <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Ломоносов, Транспортный переулок, 9В</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+79219432703">+7 (921) 943-27-03</a></p>
         <p><i class="fas fa-envelope"></i> <a href="mailto:info@avtoservisplus.ru">info@avtoservisplus.ru</a></p>
-        <p><i class="fas fa-clock"></i> Пн–Пт: 9:00 – 21:00, Сб: 10:00 – 18:00</p>
+        <p><i class="fas fa-clock"></i> Пн–Пт: 12:00 – 21:00, Сб: 12:00 – 18:00</p>
         <div class="social-links">
-          <a href="#"><i class="fab fa-vk"></i></a>
-          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/club217707365"><i class="fab fa-vk"></i></a>
+          <a href="t.me/cucumber_qt"><i class="fab fa-telegram"></i></a>
           <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
@@ -173,6 +350,38 @@
         <input type="text" name="name" placeholder="Ваше имя" required>
         <input type="tel" name="phone" placeholder="Номер телефона" required>
         <input type="email" name="email" placeholder="Email (необязательно)">
+      
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date"><i class="fas fa-calendar-alt"></i> Дата</label>
+            <input type="date" name="date" id="date" required min="" value="">
+          </div>
+          <div class="form-group">
+            <label for="time"><i class="fas fa-clock"></i> Время</label>
+            <select name="time" id="time" required>
+              <option value="">Выберите время</option>
+              <option value="12:00">12:00</option>
+              <option value="12:30">12:30</option>
+              <option value="13:00">13:00</option>
+              <option value="13:30">13:30</option>
+              <option value="14:00">14:00</option>
+              <option value="14:30">14:30</option>
+              <option value="15:00">15:00</option>
+              <option value="15:30">15:30</option>
+              <option value="16:00">16:00</option>
+              <option value="16:30">16:30</option>
+              <option value="17:00">17:00</option>
+              <option value="17:30">17:30</option>
+              <option value="18:00">18:00</option>
+              <option value="18:30">18:30</option>
+              <option value="19:00">19:00</option>
+              <option value="19:30">19:30</option>
+              <option value="20:00">20:00</option>
+              <option value="20:30">20:30</option>
+            </select>
+          </div>
+        </div>
+
         <select name="service" required>
           <option value="">Выберите услугу</option>
           <option>Компьютерная диагностика</option>
@@ -184,12 +393,47 @@
         </select>
         <textarea name="comment" rows="3" placeholder="Комментарий к заявке"></textarea>
         <button type="submit" class="btn btn-primary" id="submitBtn">Отправить заявку</button>
-        <p class="form-note">Мы свяжемся с вами в течение 15 минут</p>
+        <p class="form-note">Мы свяжемся с вами в течение нескольких часов</p>
       </form>
     </div>
   </section>
 
-  <!-- ПОДВАЛ -->
+    <!-- карта -->
+  <section class="map-section">
+    <div class="container">
+      <div class="map-container">
+        <div class="map-info">
+          <h3><i class="fas fa-map-pin" style="color: #e63946;"></i> Как нас найти</h3>
+          <p><strong>Адрес:</strong> Ломоносов, Транспортный переулок, 9В</p>
+          <div class="map-schedule">
+            <div class="schedule-item">
+              <span>Пн–Пт</span>
+              <span>12:00 – 21:00</span>
+            </div>
+            <div class="schedule-item">
+              <span>Сб-Вс</span>
+              <span>12:00 – 18:00</span>
+            </div>
+          </div>
+          <a href="https://yandex.ru/maps/-/CTFyAOnd" target="_blank" class="btn btn-primary" style="margin-top: 20px;">
+            <i class="fas fa-directions"></i> Построить маршрут
+          </a>
+        </div>
+        <div class="map-iframe">
+          <iframe 
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef&source=constructor" 
+            width="100%" 
+            height="400" 
+            frameborder="0"
+            style="border-radius: 20px; border: none;"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- подвал -->
   <footer class="footer">
     <div class="container footer-container">
       <div class="footer-col">
@@ -197,21 +441,27 @@
           <i class="fas fa-car" style="color: #e63946; margin-right: 10px;"></i>
           <span>АвтоСервис <span style="font-weight: 300;">+</span></span>
         </div>
-        <p>Профессиональный автосервис с 2008 года. Заботимся о вашем автомобиле как о своем.</p>
+        <p>Профессиональный автосервис с 2018 года. Заботимся о вашем автомобиле как о своем.</p>
       </div>
       <div class="footer-col">
         <h4>Навигация</h4>
         <ul>
           <li><a href="#services">Услуги</a></li>
+          <li><a href="#prices">Цены</a></li>
           <li><a href="#about">О нас</a></li>
           <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Контакты</h4>
-        <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
-        <p><i class="fas fa-envelope"></i> info@avtoservisplus.ru</p>
+          <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+          <p><i class="fas fa-envelope"></i> пока без почты</p>
+          <p class="social-link">
+            <i class="fab fa-vk"></i>
+            <a href="https://vk.com/club217707365" target="_blank">Наше ВК сообщество</a>
+          </p>
       </div>
     </div>
     <div class="footer-bottom">
@@ -219,72 +469,179 @@
     </div>
   </footer>
 
-  <!-- ===== СКРИПТ ОТПРАВКИ В TELEGRAM ===== -->
-  <script>
-    document.getElementById('appointment-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
+<!-- скрипты -->
+<script>
+// ограничение даты в календаре
+  document.addEventListener('DOMContentLoaded', function() {
+    const dateInput = document.getElementById('date');
+    if (dateInput) {
+      const today = new Date();
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, '0');
+      const day = String(today.getDate()).padStart(2, '0');
+      dateInput.min = `${year}-${month}-${day}`;
       
-      // ===== ВСТАВЬТЕ СВОИ ДАННЫЕ =====
-      const BOT_TOKEN = '8924647158:AAGBWhsWyuo682aeyT5144JC6ESAqbHsR4E';     // Замените на токен от @BotFather
-      const CHAT_ID = '1133792861';    // Замените на ID от @userinfobot
-      // ==================================
+      dateInput.value = `${year}-${month}-${day}`;
+    }
+  });
+
+// форма для тг бота
+  document.getElementById('appointment-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const BOT_TOKEN = '8924647158:AAGBWhsWyuo682aeyT5144JC6ESAqbHsR4E';
+    const CHAT_ID = '1133792861';
+    
+    const form = this;
+    const submitBtn = document.getElementById('submitBtn');
+    const formData = new FormData(form);
+    
+    const data = {
+      name: formData.get('name') || 'Не указано',
+      phone: formData.get('phone') || 'Не указано',
+      email: formData.get('email') || 'Не указан',
+      date: formData.get('date') || 'Не выбрана',
+      time: formData.get('time') || 'Не выбрано',
+      service: formData.get('service') || 'Не выбрано',
+      comment: formData.get('comment') || 'Нет'
+    };
+    
+    let formattedDate = data.date;
+    if (data.date && data.date !== 'Не выбрана') {
+      const dateObj = new Date(data.date + 'T00:00:00');
+      formattedDate = dateObj.toLocaleDateString('ru-RU', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+    }
+    
+    const message = `📩 *НОВАЯ ЗАЯВКА С САЙТА!*
+    
+    👤 *Имя:* ${data.name}
+    📞 *Телефон:* ${data.phone}
+    ✉️ *Email:* ${data.email}
+    📅 *Дата:* ${formattedDate}
+    🕐 *Время:* ${data.time}
+    🔧 *Услуга:* ${data.service}
+    📝 *Комментарий:* ${data.comment}
+    
+    🕐 ${new Date().toLocaleString('ru-RU')}`;
+    
+    submitBtn.disabled = true;
+    submitBtn.textContent = '⏳ Отправка...';
+    
+    try {
+      const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: CHAT_ID,
+          text: message,
+          parse_mode: 'Markdown'
+        })
+      });
       
-      const form = this;
-      const submitBtn = document.getElementById('submitBtn');
-      const formData = new FormData(form);
+      const result = await response.json();
       
-      const data = {
-        name: formData.get('name') || 'Не указано',
-        phone: formData.get('phone') || 'Не указано',
-        email: formData.get('email') || 'Не указан',
-        service: formData.get('service') || 'Не выбрано',
-        comment: formData.get('comment') || 'Нет'
-      };
-      
-      // Формируем красивое сообщение
-      const message = `📩 *НОВАЯ ЗАЯВКА С САЙТА!*
-      
-      👤 *Имя:* ${data.name}
-      📞 *Телефон:* ${data.phone}
-      ✉️ *Email:* ${data.email}
-      🔧 *Услуга:* ${data.service}
-      📝 *Комментарий:* ${data.comment}
-      
-      🕐 ${new Date().toLocaleString('ru-RU')}`;
-      
-      // Блокируем кнопку, чтобы не было двойных отправок
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Отправка...';
-      
-      try {
-        const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-        const response = await fetch(url, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            chat_id: CHAT_ID,
-            text: message,
-            parse_mode: 'Markdown'
-          })
-        });
-        
-        const result = await response.json();
-        
-        if (result.ok) {
-          alert('✅ Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.');
-          form.reset();
-        } else {
-          console.error('Ошибка Telegram:', result);
-          alert('❌ Ошибка отправки. Пожалуйста, позвоните нам по телефону.');
+      if (result.ok) {
+        showNotification('✅ Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.', 'success');
+        form.reset();
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        const dateInput = document.getElementById('date');
+        if (dateInput) {
+          dateInput.value = `${year}-${month}-${day}`;
         }
-      } catch (error) {
-        console.error('Ошибка сети:', error);
-        alert('❌ Ошибка соединения. Проверьте интернет и попробуйте снова.');
-      } finally {
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Отправить заявку';
+      } else {
+        console.error('Ошибка Telegram API:', result);
+        showNotification('❌ Ошибка отправки. Пожалуйста, позвоните нам по телефону.', 'error');
       }
+    } catch (error) {
+      console.error('Ошибка сети:', error);
+      showNotification('❌ Ошибка соединения. Проверьте интернет и попробуйте снова.', 'error');
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Отправить заявку';
+    }
+  });
+
+  // всплывающие уведомления
+  function showNotification(message, type = 'success') {
+    const oldNotification = document.querySelector('.custom-notification');
+    if (oldNotification) {
+      oldNotification.remove();
+    }
+    
+    const colors = {
+      success: '#4CAF50',
+      error: '#f44336'
+    };
+    
+    const notification = document.createElement('div');
+    notification.className = 'custom-notification';
+    notification.style.cssText = `
+      position: fixed;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: ${colors[type]};
+      color: white;
+      padding: 20px 35px;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+      z-index: 9999;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      animation: slideDown 0.4s ease;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    `;
+    notification.textContent = message;
+    
+    if (!document.getElementById('notification-styles')) {
+      const styles = document.createElement('style');
+      styles.id = 'notification-styles';
+      styles.textContent = `
+        @keyframes slideDown {
+          0% { opacity: 0; transform: translateX(-50%) translateY(-30px); }
+          100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        }
+      `;
+      document.head.appendChild(styles);
+    }
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.style.opacity = '0';
+        notification.style.transition = 'opacity 0.3s';
+        setTimeout(() => notification.remove(), 300);
+      }
+    }, 5000);
+    
+    notification.addEventListener('click', () => {
+      notification.remove();
     });
-  </script>
+  }
+// FAQ
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.addEventListener('click', function() {
+      document.querySelectorAll('.faq-item').forEach(other => {
+        if (other !== this) {
+          other.classList.remove('active');
+        }
+      });
+      this.classList.toggle('active');
+    });
+  });
+</script>
 </body>
 </html>
